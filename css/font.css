@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "RA";
+  src: url("font/Agdasima-Regular.ttf");
+}
+
+@font-face {
+  font-family: "RA";
+  src: url("font/Agdasima-Bold.ttf");
+  font-weight: bold;
+}
