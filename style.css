@@ -1,0 +1,50 @@
+@import url("css/font.css");
+
+body {
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #13b;
+  background: rgb(9, 9, 121);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 212, 255, 1) 0%,
+    /* #13b 80% */
+    rgba(9, 9, 121, 1) 80%
+  );
+  overflow: hidden;
+}
+
+.content {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+}
+
+img {
+  margin-bottom: 1000px;
+  width: 500px;
+  transition: margin 2s cubic-bezier(0.61, 1.01, 0.64, 1);
+}
+
+a {
+  margin-top: 1000px;
+  font-family: "RA";
+  font-weight: bold;
+  font-size: 40px;
+  text-decoration: none;
+  color: #ddd;
+  border-radius: 50px;
+  transition: all 0.3s ease, margin 2s cubic-bezier(0.61, 1.01, 0.64, 1);
+}
+
+a:hover {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #15d;
+  box-shadow: 0 0 30px 10px #15d;
+}
